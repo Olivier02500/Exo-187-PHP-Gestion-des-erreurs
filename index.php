@@ -24,7 +24,9 @@ try {
     // Corrigez moi ( si je me trompe ! ).
     $result = divide();
     // Afficher la variable $result.
+    echo "<p> $result </p>";
 }
-catch(//TODO Complétez moi !) {
+catch(Exception $err) {
     // TODO afficher le message contenu dans $e.
+    echo $err->getMessage();
 }
